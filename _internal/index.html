@@ -39,15 +39,6 @@
       background: rgba(74, 222, 128, 0.38) !important;
       box-shadow: 0 0 15px rgba(74, 222, 128, 0.3);
     }
-    .glass-red {
-      background: rgba(239, 68, 68, 0.22) !important;
-      border: 1px solid rgba(239, 68, 68, 0.5) !important;
-      color: #ffffff !important;
-    }
-    .glass-red:hover {
-      background: rgba(239, 68, 68, 0.38) !important;
-      box-shadow: 0 0 15px rgba(239, 68, 68, 0.3);
-    }
     .glass-input {
       background: rgba(255, 255, 255, 0.08);
       border: 1px solid rgba(255, 255, 255, 0.15);
@@ -84,7 +75,7 @@
         
         <!-- Header -->
         <header class="flex items-center gap-4 border-b border-white/10 pb-4">
-          <img src="icone.png" alt="AUT_1707" class="size-14 shrink-0 rounded-2xl object-cover shadow-lg shadow-black/20">
+          <img src="icone.png" alt="AUT_1707" class="size-14 shrink-0 rounded-2xl object-cover shadow-lg shadow-black/20" onerror="this.style.display='none'">
           <div class="flex flex-col">
             <h1 class="text-2xl font-extrabold tracking-tight text-white">AUT_1707</h1>
             <p class="text-sm font-semibold text-white/70">Painel da Automação de Impressão</p>
@@ -107,20 +98,15 @@
             </span>
           </header>
 
-          <div class="grid grid-cols-2 gap-3">
-            <button type="button" onclick="executarAcao('iniciar_tudo')" class="glass-btn glass-green flex h-11 items-center justify-center gap-2 rounded-xl text-sm font-bold text-white">
-              <svg class="size-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"/></svg>
-              Iniciar Tudo
-            </button>
-            <button type="button" onclick="executarAcao('encerrar_tudo')" class="glass-btn glass-red flex h-11 items-center justify-center gap-2 rounded-xl text-sm font-bold text-white">
-              <svg class="size-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"/></svg>
-              Encerrar Tudo
-            </button>
-            <button type="button" onclick="executarAcao('abrir_script_ahk')" class="glass-btn flex h-11 items-center justify-center gap-2 rounded-xl text-sm font-bold text-white">
-              <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"/><polyline points="14 2 14 8 20 8"/><path d="m10 13-2 2 2 2"/><path d="m14 17 2-2-2-2"/></svg>
+          <div class="grid grid-cols-1 gap-3">
+            <!-- Botão AHK Destaque Verde (Ocupa a largura total / 2 colunas da linha superior) -->
+            <button type="button" onclick="executarAcao('abrir_script_ahk')" class="glass-btn glass-green flex h-12 w-full items-center justify-center gap-2 rounded-xl text-sm font-extrabold text-white">
+              <svg class="size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"/><polyline points="14 2 14 8 20 8"/><path d="m10 13-2 2 2 2"/><path d="m14 17 2-2-2-2"/></svg>
               Abrir Script AHK
             </button>
-            <button type="button" onclick="trocarTela('settings')" class="glass-btn flex h-11 items-center justify-center gap-2 rounded-xl text-sm font-bold text-[#bbf7d0]">
+
+            <!-- Botão Configurar Painel -->
+            <button type="button" onclick="trocarTela('settings')" class="glass-btn flex h-11 w-full items-center justify-center gap-2 rounded-xl text-sm font-bold text-[#bbf7d0]">
               <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.38a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
               Configurar Painel
             </button>

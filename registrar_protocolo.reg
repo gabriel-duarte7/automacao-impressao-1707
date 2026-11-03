@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\aut1707]
+@="URL:Protocolo AUT 1707"
+"URL Protocol"=""
+
+[HKEY_CURRENT_USER\Software\Classes\aut1707\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\aut1707\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\aut1707\shell\open\command]
+@="\"C:\\Users\\D8059GD\\Documents\\automacao-impressao-1707\\AUT_1707.exe\" \"%1\""
