@@ -167,7 +167,7 @@ Se alterar a resolução do monitor ou mover a janela do WinThor:
 
 ## Solução de Problemas Rápidos
 
-* **Não envio dos códigos** Certifique-se da possibilidade de mudança de local da página, caso tenha sido alterado é preciso mudar todos os lugares que solicitam o local de pasta e executar o 'Reparar_Atalho.bat'
+* **Não envio dos códigos** Certifique-se da possibilidade de mudança de local da pasta, caso tenha sido alterado é preciso mudar todos os lugares que solicitam o local de pasta e executar o 'Reparar_Atalho.bat'
 * **Permissão negada ao exportar lote:** Clique no botão de aviso no cabeçalho (**Reconectar Pasta**) para renovar a autorização de gravação direta do navegador no disco local.
 * **Navegador abrindo janela de Download em vez de salvar na pasta:** Certifique-se de estar utilizando o Google Chrome ou Microsoft Edge (navegadores com suporte à File System Access API).
 * **Extensão indicando "Servidor Python desligado!":** Abra o `AUT_1707.exe` e confirme se clicou em **Iniciar Tudo**. Se necessário, clique em **Encerrar Tudo** e em seguida em **Iniciar Tudo**.
