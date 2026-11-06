@@ -64,38 +64,6 @@ AUT 1707/
 └── extension_winthor/     # Extensão para o navegador (manifest.json, content.js)
 
 ```
----
-
-## 📺 Vídeo Tutorial (Passo a Passo)
-
-Assista ao vídeo abaixo para ver a demonstração prática do funcionamento e o guia de configuração de todo o ecossistema:
-
-https://github.com/user-attachments/assets/e0f92657-8802-41ba-a04e-c22647c0be6b
-
----
-
-## 🖱 Configuração de pontos
-
-Assista ao vídeo abaixo para ver como configurar a localização dos pontos de cliques do mouse na automação
-
-https://github.com/user-attachments/assets/fc80860b-efd2-4e37-90d8-339cef59c470
-
----
-
-## Exemplo de digitalização pro keep
-
-Assista ao vídeo para ver um exemplo de como se pode digitalizar e enviar para o google keep
-
-https://github.com/user-attachments/assets/0f0cfbe4-fb7c-4957-9b37-68f85356d64c
-
----
-
----
-
-## Downloads e Instalação
-
-1. **AutoHotkey v2.0:** Faça o download e instale a versão mais recente em [autohotkey.com](https://www.autohotkey.com/).
-2. **Pacote da Automação:** Baixe o arquivo `automacao-impressao.zip` na seção de **Releases** mais recente do repositório e extraia na pasta desejada (de preferência nomeada como `AUT 1707`).
 
 ---
 
