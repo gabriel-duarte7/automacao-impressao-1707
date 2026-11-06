@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 # <img width="30" height="30" alt="icone" src="https://github.com/user-attachments/assets/e299755d-1fe5-47c3-83e5-92a05cde71a8" /> AUT_1707 — Automação de Impressão em Lote (WinThor 1707) 
 
 Sistema de automação inteligente desenvolvido para capturar códigos de produtos a partir de notas do **Google Keep** (via extensão de navegador), sincronizá-los com um servidor local e realizar a impressão automática em lote na **Rotina 1707 do ERP WinThor** (Ambiente Remoto) utilizando **AutoHotkey v2.0** e **Python (pywebview + Flask)**.
@@ -71,7 +79,7 @@ AUT 1707/
 
 Assista ao vídeo abaixo para ver a demonstração prática do funcionamento e o guia de configuração de todo o ecossistema:
 
-https://github.com/user-attachments/assets/e0f92657-8802-41ba-a04e-c22647c0be6b
+https://github.com/user-attachments/assets/5b5a2aa2-4597-4ebb-bcca-6b2dcddf0f37
 
 ---
 
@@ -79,7 +87,7 @@ https://github.com/user-attachments/assets/e0f92657-8802-41ba-a04e-c22647c0be6b
 
 Assista ao vídeo abaixo para ver como configurar a localização dos pontos de cliques do mouse na automação:
 
-https://github.com/user-attachments/assets/fc80860b-efd2-4e37-90d8-339cef59c470
+https://github.com/user-attachments/assets/e7944bb4-802b-4418-9f01-aac7612d0b1c
 
 ---
 
