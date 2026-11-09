@@ -36,6 +36,7 @@ Sistema de automação inteligente desenvolvido para capturar códigos de produt
 
 <img width="935" height="761" alt="image" src="https://github.com/user-attachments/assets/fa8ec428-3039-422e-81b2-8c69c5618aec" />
 <img width="933" height="760" alt="image" src="https://github.com/user-attachments/assets/c99f7f71-c1af-492a-8b52-70152fbaa483" />
+<img width="400" height="239" alt="image" src="https://github.com/user-attachments/assets/a0278b83-9f9b-4224-b005-943fbe674702" />
 
 ## Arquitetura do sistema
 
