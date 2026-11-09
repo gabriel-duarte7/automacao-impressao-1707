@@ -35,16 +35,9 @@ Sistema de automação inteligente desenvolvido para capturar códigos de produt
 ## 📐 Arquitetura do Sistema
 
 ```
-[ Painel Web Vercel / Neon DB ] ──────(Lote CSV)──────┐
-│                                   │
-(Google Keep Extension)                        ▼
-│                    [ File System Access API ] ──> [ codigos.csv ]
-▼                                (IndexedDB)              │
-[ Servidor Local Python ] ───────────────────────────────────────────┤
-│                                                         │
-(Executa em Thread)                                         (Lido pelo AHK)
-│                                                         │
-[ AUT_1707.exe ] ──────(IPC Memória)──────> [ impressao_1707.ahk ] ──> [ WinThor 1707 ]
+<img width="935" height="761" alt="image" src="https://github.com/user-attachments/assets/fa8ec428-3039-422e-81b2-8c69c5618aec" />
+<img width="933" height="760" alt="image" src="https://github.com/user-attachments/assets/c99f7f71-c1af-492a-8b52-70152fbaa483" />
+
 
 ```
 
