@@ -34,12 +34,12 @@ Sistema de automação inteligente desenvolvido para capturar códigos de produt
 
 ## 📐 Arquitetura do Sistema
 
-```
+
 <img width="935" height="761" alt="image" src="https://github.com/user-attachments/assets/fa8ec428-3039-422e-81b2-8c69c5618aec" />
 <img width="933" height="760" alt="image" src="https://github.com/user-attachments/assets/c99f7f71-c1af-492a-8b52-70152fbaa483" />
 
 
-```
+
 
 1. **Painel Web de Inventário (Vercel + Neon PostgreSQL):** Interface completa de gerenciamento da fila de impressão, controle de contagens físicas diárias, gráficos comparativos de 7 dias e gerador de lotes `codigos.csv`.
 2. **Extensão Web (`extension_winthor`):** Extensão leve para Chrome/Edge que captura sequências numéricas de produtos do Google Keep e envia via HTTP POST para `http://localhost:5000/api/codigos` (sem Service Workers intermediários para evitar instabilidades).
